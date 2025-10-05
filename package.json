@@ -1,0 +1,19 @@
+{
+  "name": "week2-product-api",
+  "version": "1.0.0",
+  "description": "A simple Express-based Product API for CRUD operations and filtering.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
